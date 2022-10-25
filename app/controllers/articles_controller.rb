@@ -63,4 +63,5 @@ class ArticlesController < ApplicationController
                 flash[:danger] = "You can only edit or delete you own articles"
                 redirect_to root_path
             end
+        end
 end
