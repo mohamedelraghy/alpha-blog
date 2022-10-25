@@ -1,8 +1,6 @@
-$navbar-default-bg: black;  
+$navbar-default-bg: black;
 
-@import 'bootstrap/scss/bootstrap';
-@import 'bootstrap-icons/font/bootstrap-icons';
-
+@import "bootstrap";
 
 #logo {
   float: left;
