@@ -21,6 +21,6 @@ class SessionsController < ApplicationController
     def destroy
         session[:user_id] = nil
         flash[:success] = "You have logged out"
-        redirect_to root_path
+        redirect_to root_path, status: :see_other # use this pramater while using redirct_to whit delte method
     end
 end
